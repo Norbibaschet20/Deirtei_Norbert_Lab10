@@ -6,8 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace Deritei_Norbert_Lab10
+namespace Retegan_Andra_Lab10
 {
+    // Learn more about making custom code visible in the Xamarin.Forms previewer
+    // by visiting https://aka.ms/xamarinforms-previewer
+    [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
         public MainPage()

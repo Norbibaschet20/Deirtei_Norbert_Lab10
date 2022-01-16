@@ -3,11 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Deritei_Norbert_Lab10.Models
+namespace Retegan_Andra_Lab10.Models
 {
-   public class ShopList
+    public class ShopList
     {
-
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
         public string Description { get; set; }

@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Retegan_Andra_Lab10.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using Deritei_Norbert_Lab10.Models;
-
-namespace Deritei_Norbert_Lab10
+namespace Retegan_Andra_Lab10
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ListEntryPage : ContentPage
@@ -18,7 +16,6 @@ namespace Deritei_Norbert_Lab10
         {
             InitializeComponent();
         }
-
         protected override async void OnAppearing()
         {
             base.OnAppearing();
@@ -42,6 +39,4 @@ namespace Deritei_Norbert_Lab10
             }
         }
     }
-
-
 }

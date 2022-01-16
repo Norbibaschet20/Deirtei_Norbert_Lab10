@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Deritei_Norbert_Lab10.iOS
+namespace Retegan_Andra_Lab10.iOS
 {
     public class Application
     {

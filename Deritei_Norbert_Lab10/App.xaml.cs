@@ -1,14 +1,13 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Deritei_Norbert_Lab10.Data;
+using Retegan_Andra_Lab10.Data;
 using System.IO;
 
-namespace Deritei_Norbert_Lab10
+namespace Retegan_Andra_Lab10
 {
     public partial class App : Application
     {
-
         static ShoppingListDatabase database;
         public static ShoppingListDatabase Database
         {
@@ -28,7 +27,6 @@ namespace Deritei_Norbert_Lab10
             InitializeComponent();
 
             MainPage = new NavigationPage(new ListEntryPage());
-
         }
 
         protected override void OnStart()
